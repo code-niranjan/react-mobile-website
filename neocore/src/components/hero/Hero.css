@@ -1,0 +1,65 @@
+
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-box{
+    width: 112rem;
+    height: 80rem;
+    /* border: 1px solid red; */
+    background-color: #F4F6FF;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+
+.hero-heading{
+    width: 38rem;
+    font-family: "Jura";
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+
+}
+
+.hero-subheading{
+    font-family: "Jura";
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.hero-column-one{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-left: 5rem;
+    margin-top: 15rem;
+    
+}
+
+.hero-column-two{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-price-button{
+    width: 9.8rem;
+    height: 4.6rem;
+    font-size: 3.2rem;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: #F3C623;
+}

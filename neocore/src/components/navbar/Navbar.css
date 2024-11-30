@@ -1,0 +1,24 @@
+
+.navbar{
+    width: 34rem;
+    height: 4rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F6FF;
+}
+
+.navbar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.navbar ul li a{
+    font-size: 1.8rem;
+    font-family: 'Jura';
+    color: #10375C;
+}
