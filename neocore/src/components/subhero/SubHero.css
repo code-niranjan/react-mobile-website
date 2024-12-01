@@ -8,6 +8,7 @@
     background-size: contain;
     background-position: 50% 50%;
     position: relative;
+    background-repeat: no-repeat;
 
 }
 
@@ -26,4 +27,30 @@
     justify-content: center;
     align-items: center;
     letter-spacing: 1rem;
+}
+
+
+@media (max-width:1440px) {
+    .sub-hero-title{
+        font-size: 2.8rem;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+    .sub-hero-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .sub-hero-box{
+        height: 60rem;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .sub-hero-box{
+        height: 30rem;
+    }
+    .sub-hero-title{
+        text-align: center;
+    }
 }

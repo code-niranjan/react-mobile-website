@@ -17,3 +17,16 @@
     align-items: center;
     color: #10375C;
 }
+
+@media (min-width:1025px) and (max-width:1200px) {
+    html{
+      font-size: 58%;
+    }
+    #extra{
+        display: flex;
+        justify-content: center;
+    }
+    .extra-box{
+        font-size: 4rem;
+    }
+  }

@@ -8,6 +8,7 @@
 .feauture-card{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 1rem;
 }
 
 .card-layout{
@@ -20,7 +21,8 @@
 .feature-box{
     width: 112rem;
     /* height: 10rem; */
-    border: 2px solid black ;
+    /* border: 2px solid black ; */
+    background-color: #F4F6FF;
 }
 
 .feature-title{
@@ -50,9 +52,9 @@
     -moz-border-radius: 1.5rem;
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
-  
-
-
+    /* background-color: #F3C623; */
+    background-color: #10375C;
+    color: white;
 }
 
 .card-box-col-two{
@@ -67,7 +69,9 @@
 .card-box-col-two-one i{
     font-size: 4rem;
     margin-left: 4rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* color: #10375C; */
+    color: #F3C623;
 }
 
 .card-box-col-two-one{

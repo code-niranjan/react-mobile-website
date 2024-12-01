@@ -16,7 +16,6 @@ export const Feature = () => {
               <Card_F source={'./src/assets/images/display.png'} title='Display' para_one="6.7'' Super AMOLED" para_two='120 Hz Display' icon='mobile'/>
               </div>
                 
-                
             </div>
         </div>
     </div>

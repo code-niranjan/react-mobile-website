@@ -9,10 +9,11 @@
 .footer{
     width: 112rem;
     height: 10rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 2rem;
     font-family: "Jura";
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F4F6FF;
 }
