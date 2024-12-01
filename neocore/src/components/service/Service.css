@@ -6,6 +6,65 @@
 
 .service-box{
     width: 112rem;
-    height: 60rem;
+    /* height: 60rem; */
     border: 1px solid black;
+}
+
+.service-box-col-one{
+    font-size: 4rem;
+    font-family: "Jura";
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.service-box-col-two{
+    /* width: 100%; */
+    /* height: 20rem; */
+    /* border: 1px solid red; */
+    /* margin-top: 2rem; */
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-box-card{
+    /* width: 23rem; */
+    height: 15rem;
+    border: 2px solid red;
+    display: flex;
+}
+
+.service-card-text{
+    margin-top: 1rem;
+}
+
+.service-card-title{
+    font-size: 3rem;
+    font-family: "Jura";
+    text-transform: capitalize;
+    padding-left: 1rem;
+}
+
+.service-card-para{
+    font-family: "Jura";
+    font-size: 1.8rem;
+    padding-left: 1rem;
+}
+
+/* .service-container{
+    border: 1px solid blue;
+   
+} */
+
+.service-card-icon{
+    display: flex;
+    align-items: flex-end;
+    /* border: 1px solid goldenrod; */
+}
+.service-card-icon i{
+    font-size: 6rem;
+    
+
 }

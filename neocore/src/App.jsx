@@ -5,6 +5,7 @@ import { SubHero } from "./components/subhero/SubHero"
 import { Feature } from "./components/feature/Feature"
 import { Extra } from "./components/extra/Extra"
 import { Service } from "./components/service/Service"
+import { Footer } from "./components/footer/Footer"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Feature/>
       <Extra/>
       <Service/>
+      <Footer/>
     </>
   )
 }
