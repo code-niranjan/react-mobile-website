@@ -85,3 +85,10 @@
     }
 
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+    .service-box-card{
+        width: 24rem;
+        height: 18rem;
+    }
+}
