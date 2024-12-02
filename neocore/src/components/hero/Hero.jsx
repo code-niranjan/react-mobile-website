@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import hero_img from '/src/images/image_1.png'
 
 export const Hero = () => {
     return (
@@ -14,7 +15,7 @@ export const Hero = () => {
                         <div className="hero-price-button">$100</div>
                     </div>
                     <div className="hero-column-two">
-                        <img src="/src/assets/images/image_1.png" alt="" />
+                        <img src={hero_img} alt="" />
                     </div>
 
                 </div>
